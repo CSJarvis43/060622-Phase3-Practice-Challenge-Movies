@@ -25,10 +25,11 @@ puts "Creating roles..."
 # Create Roles Here
 
 r1 = optimus_prime = Role.create(character_name: "Optimus Prime", salary: 2_000_000, movie_id: m1.id, actor_id: a1.id)
-r1 = harry_potter = Role.create(character_name: "Harry Potter", salary: 2_000_000, movie_id: m1.id, actor_id: a1.id)
-r1 = legolas = Role.create(character_name: "Legolas", salary: 2_000_000, movie_id: m1.id, actor_id: a2.id)
-r1 = aragorn = Role.create(character_name: "Aragorn", salary: 2_000_000, movie_id: m2.id, actor_id: a2.id)
-r1 = frodo = Role.create(character_name: "Frodo", salary: 2_000_000, movie_id: m3.id, actor_id: a1.id)
+r2 = harry_potter = Role.create(character_name: "Harry Potter", salary: 2_000_000, movie_id: m1.id, actor_id: a1.id)
+r3 = legolas = Role.create(character_name: "Legolas", salary: 2_000_000, movie_id: m1.id, actor_id: a2.id)
+r4 = aragorn = Role.create(character_name: "Aragorn", salary: 2_000_000, movie_id: m2.id, actor_id: a2.id)
+r5 = frodo = Role.create(character_name: "Frodo", salary: 2_000_000, movie_id: m3.id, actor_id: a1.id)
+r6 = samwise = Role.create(character_name: "Samwise Gamgee", salary: 3_000_000, movie_id: m3.id, actor_id: a6.id)
 
 
 puts "Seeding done!"
